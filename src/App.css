@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: 30px auto;
+    width: auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.nav-active {
+    border: 2px solid darkorchid;
+    border-radius: 20px;
+}
+
+nav { 
+    display: grid;
+    grid-gap: 0.1rem;
+    text-decoration: none;
+}
